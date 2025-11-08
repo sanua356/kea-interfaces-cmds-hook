@@ -24,7 +24,9 @@ The hook is implemented for `kea-dhcp4` and `kea-dhcp6` service.
 
 ## API Parameters
 `section`  - String type (enum: "global" | "subnet"). Determines from which configuration section network interfaces should be managed.
+
 `subnet_id` - Unsigned interger type. For requests to get, add, and delete a configuration, specifies the subnet ID for which manipulations should be performed. This only works if the `"section": "subnet"` parameter is specified.
+
 `interfaces` - List of strings type. For configuration add and remove requests, specifies the name of the network interface to be manipulated. 
 
 ## API Commands
