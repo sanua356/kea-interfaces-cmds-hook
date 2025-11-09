@@ -95,6 +95,7 @@ Returns a list of network interfaces specified in the server configuration.
 ```
 
 **Payload for subnet call**
+
 For subnets, either an empty list is always returned if no interface is specified in the subnet, or a single-item list if one is specified.
 ```json
 {
