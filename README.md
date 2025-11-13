@@ -123,6 +123,7 @@ For subnets, either an empty list is always returned if no interface is specifie
 ### `append-interfaces` command
 Takes a `section` , `interfaces` and `subnet_id` (optionally) parameters.
 Adds interfaces to an existing configuration. If the interface has already been added, the request will return an error message.
+
 **Payload for global call**
 ```json
 {
@@ -164,6 +165,7 @@ Adds interfaces to an existing configuration. If the interface has already been 
 ### `delete-interfaces` command
 Takes a `section` , `interfaces` and `subnet_id` (optionally) parameters.
 Remove interfaces to an existing configuration. If the interface not exists, the request will return an error message.
+
 **Payload for global call**
 ```json
 {
